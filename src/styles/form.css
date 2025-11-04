@@ -1,0 +1,51 @@
+form {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  .inputs {
+    input {
+      width: 100%;
+      font-size: 1.25rem;
+      padding: 1.25rem;
+      background-color: #fff;
+      color: #000;
+      outline: none;
+      border: none;
+      border-radius: 0.25rem;
+      margin-top: 0.5rem;
+    }
+  }
+
+  .show {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    input {
+      width: 1rem;
+      height: 1rem;
+      cursor: pointer;
+
+      &:checked {
+        accent-color: #133a95;
+      }
+    }
+  }
+
+  button {
+    font-size: 1.25rem;
+    padding: 0.9rem 0.75rem;
+  }
+
+  .recovery {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5 rem;
+
+    small {
+      font-size: 1rem;
+    }
+  }
+}
