@@ -3,6 +3,14 @@ const password = document.querySelector("#password-login");
 const button = document.querySelector("#button-login");
 const checkbox = document.querySelector("#checkbox-login");
 
+checkbox.addEventListener("change", () => {
+  if (checkbox.checked) {
+    password.type = "text";
+  } else {
+    password.type = "password";
+  }
+});
+
 button.addEventListener("click", (event) => {
   const usernameValue = username.value;
   const passwordValue = password.value;
