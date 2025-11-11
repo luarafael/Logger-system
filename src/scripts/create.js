@@ -3,6 +3,7 @@ const username = document.querySelector("#username-create");
 const password = document.querySelector("#password-create");
 const checkbox = document.querySelector("#checkbox-create");
 const button = document.querySelector("#button-create");
+const name = document.querySelector("#name-create");
 
 checkbox.addEventListener("change", () => {
   if (checkbox.checked) {
@@ -13,11 +14,18 @@ checkbox.addEventListener("change", () => {
 });
 
 button.addEventListener("click", (event) => {
+  const nameValue = name.value;
   const emailValue = email.value;
   const usernameValue = username.value;
   const passwordValue = password.value;
+  event.preventDefault();
 
-  if (emailValue === "" || usernameValue === "" || passwordValue === "") {
+  if (
+    emailValue === "" ||
+    usernameValue === "" ||
+    passwordValue === "" ||
+    nameValue === ""
+  ) {
     alert("Please fill in all the fields!");
     return;
   }
@@ -30,6 +38,10 @@ button.addEventListener("click", (event) => {
     return;
   }
 
+  sessionStorage.setItem("name", nameValue);
+  sessionStorage.setItem("password", passwordValue);
+  sessionStorage.setItem("username", usernameValue);
+  sessionStorage.setItem("email", emailValue);
   alert("Account created successfully!");
 
   window.location.href = "login.html";

@@ -14,18 +14,19 @@ checkbox.addEventListener("change", () => {
 button.addEventListener("click", (event) => {
   const usernameValue = username.value;
   const passwordValue = password.value;
+  event.preventDefault();
 
-  if (usernameValue === " " || passwordValue === "") {
-    event.preventDefault();
+  if (usernameValue === " " || passwordValue === " ") {
     alert("Please fill in all the fields!");
     return;
   }
+  const usernameSession = sessionStorage.getItem("username");
+  const passwordSession = sessionStorage.getItem("password");
 
-  if (usernameValue !== "luã" || passwordValue !== "123") {
-    event.preventDefault();
-    alert("Incorrect usermane or password");
+  if (usernameSession !== usernameValue || passwordSession !== passwordValue) {
+    alert("Incorrect Password or Username");
     return;
   }
 
-  alert("Access granted !");
+  window.location.href = "./home.html";
 });
