@@ -34,7 +34,7 @@ button.addEventListener("click", (event) => {
     return;
   }
   if (passwordValue.length < 8) {
-    alert("The password must be at least 6 characters long!");
+    alert("The password must be at least 8 characters long!");
     return;
   }
 
