@@ -32,11 +32,16 @@ button.addEventListener("click", (event) => {
     alert("Passwords do not match!");
     return;
   }
-  if (username.value !== sessionStorage.getItem("username", usernameValue)) {
+  if (username.value !== sessionStorage.getItem("username")) {
     alert("username does not exist!");
     return;
   }
-  sessionStorage.getItem("username", usernameValue);
+
+  if (npasswordValue === sessionStorage.getItem("password")) {
+    alert("This password has already been used.");
+    return;
+  }
+
   sessionStorage.setItem("password", npasswordValue);
   alert("Password successfully recovered!");
 
