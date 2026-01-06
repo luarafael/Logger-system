@@ -48,7 +48,7 @@ logger-system/
         └── global.css
 ```
 
-## �🚀 Instalação e Configuração
+## 🚀 Instalação & Configuração
 
 1. **Clone o Repositório**:
    ```bash
