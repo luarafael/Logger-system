@@ -1,71 +1,71 @@
-# 🚀 Logger System
+# 🚀 Sistema de Logger
 
 [![GitHub stars](https://img.shields.io/github/stars/luarafael/Logger-system?style=social)](https://github.com/luarafael/Logger-system)
 [![GitHub license](https://img.shields.io/github/license/luarafael/Logger-system)](https://github.com/luarafael/Logger-system/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/luarafael/Logger-system)](https://github.com/luarafael/Logger-system/issues)
 
-## 📖 Description
+## 📖 Descrição
 
-Welcome to the **Logger System**! This is a modern, web-based application designed for user authentication and logging activities. Developed as part of my studies at **Digital College, Turma FS-07**, this project showcases fundamental web development skills using HTML, CSS, and JavaScript.
+Bem-vindo ao **Sistema de Logger**! Esta é uma aplicação web moderna projetada para autenticação de usuários e atividades de logging. Desenvolvida como parte dos meus estudos na **Digital College, Turma FS-07**, este projeto demonstra habilidades fundamentais em desenvolvimento web usando HTML, CSS e JavaScript.
 
-Whether you're a recruiter looking for talent or a fellow developer exploring educational projects, this repository highlights practical implementation of front-end technologies in a clean, professional manner. Perfect for demonstrating responsive design, form handling, and interactive user interfaces! 🌟
+Seja você um recrutador procurando talento ou um desenvolvedor explorando projetos educacionais, este repositório destaca a implementação prática de tecnologias front-end de maneira limpa e profissional. Perfeito para demonstrar design responsivo, manipulação de formulários e interfaces de usuário interativas! 🌟
 
-## ✨ Features
+## ✨ Funcionalidades
 
-- 🔐 **User Authentication**: Secure login and account creation pages
-- 🏠 **Dashboard Home**: Personalized home page after login
-- 🔑 **Password Recovery**: Easy password reset functionality
-- 📱 **Responsive Design**: Optimized for desktop and mobile devices
-- 🎨 **Modern UI**: Clean, professional styling with intuitive navigation
-- ⚡ **Fast & Lightweight**: Built with vanilla JavaScript for optimal performance
+- 🔐 **Autenticação de Usuário**: Páginas seguras de login e criação de conta
+- 🏠 **Página Inicial do Painel**: Página inicial personalizada após o login
+- 🔑 **Recuperação de Senha**: Funcionalidade fácil de redefinição de senha
+- 📱 **Design Responsivo**: Otimizado para desktop e dispositivos móveis
+- 🎨 **UI Moderna**: Estilo limpo e profissional com navegação intuitiva
+- ⚡ **Rápido e Leve**: Construído com JavaScript vanilla para desempenho ótimo
 
-## 🛠️ Technologies Used
+## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**: Semantic markup for structure
-- **CSS3**: Modern styling with responsive design
-- **JavaScript (ES6+)**: Interactive functionality and DOM manipulation
+- **HTML5**: Marcação semântica para estrutura
+- **CSS3**: Estilo moderno com design responsivo
+- **JavaScript (ES6+)**: Funcionalidade interativa e manipulação DOM
 
-## 🚀 Installation & Setup
+## 🚀 Instalação e Configuração
 
-1. **Clone the Repository**:
+1. **Clone o Repositório**:
    ```bash
    git clone https://github.com/luarafael/Logger-system.git
    cd Logger-system
    ```
 
-2. **Open in Browser**:
-   - Simply open `index.html` in your preferred web browser
-   - No additional dependencies or server required!
+2. **Abra no Navegador**:
+   - Simplesmente abra `index.html` no seu navegador web preferido
+   - Nenhuma dependência adicional ou servidor necessário!
 
-## 📋 Usage
+## 📋 Uso
 
-- **Landing Page**: Start at `index.html`
-- **Login**: Access the login page to authenticate users
-- **Create Account**: New users can register via the create page
-- **Home Dashboard**: Post-login area for logged-in users
-- **Password Recovery**: Reset forgotten passwords
+- **Página Inicial**: Comece em `index.html`
+- **Login**: Acesse a página de login para autenticar usuários
+- **Criar Conta**: Novos usuários podem se registrar via a página de criação
+- **Painel Inicial**: Área pós-login para usuários logados
+- **Recuperação de Senha**: Redefina senhas esquecidas
 
-Navigate through the pages using the intuitive interface. Each page is self-contained with its own JavaScript logic for handling user interactions.
+Navegue pelas páginas usando a interface intuitiva. Cada página é autocontida com sua própria lógica JavaScript para lidar com interações do usuário.
 
-## 🎓 Educational Context
+## 🎓 Contexto Educacional
 
-This project was created during my time at **Digital College, Turma FS-07**, as part of the full-stack development curriculum. It represents hands-on experience in building real-world web applications, focusing on user experience, code organization, and best practices in front-end development.
+Este projeto foi criado durante meu tempo na **Digital College, Turma FS-07**, como parte do currículo de desenvolvimento full-stack. Ele representa experiência prática na construção de aplicações web do mundo real, focando em experiência do usuário, organização de código e melhores práticas em desenvolvimento front-end.
 
-## 🤝 Contributing
+## 🤝 Contribuição
 
-While this is an educational project, feel free to fork and experiment! Suggestions and improvements are always welcome via issues or pull requests.
+Embora seja um projeto educacional, sinta-se à vontade para fazer fork e experimentar! Sugestões e melhorias são sempre bem-vindas via issues ou pull requests.
 
-## 📄 License
+## 📄 Licença
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
-## 👨‍💻 Author
+## 👨‍💻 Autor
 
-**Luara Rafael**  
-Digital College Student - Turma FS-07  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/luarafael)  
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/luarafael)
+**Luã rafael**  
+Estudante da Digital College - Turma FS-07  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue)](https://linkedin.com/in/luarafael)  
+[![GitHub](https://img.shields.io/badge/GitHub-Seguir-black)](https://github.com/luarafael)
 
 ---
 
-⭐ If you find this project helpful or inspiring, please give it a star! It helps showcase my work to potential employers and the developer community.
+⭐ Se você achar este projeto útil ou inspirador, por favor dê uma estrela! Isso ajuda a mostrar meu trabalho para potenciais empregadores e a comunidade de desenvolvedores.
