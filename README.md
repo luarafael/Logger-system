@@ -25,7 +25,30 @@ Seja você um recrutador procurando talento ou um desenvolvedor explorando proje
 - **CSS3**: Estilo moderno com design responsivo
 - **JavaScript (ES6+)**: Funcionalidade interativa e manipulação DOM
 
-## 🚀 Instalação e Configuração
+## � Estrutura do Projeto
+
+```
+logger-system/
+├── index.html
+├── README.md
+└── src/
+    ├── pages/
+    │   ├── create.html
+    │   ├── home.html
+    │   ├── login.html
+    │   └── recover.html
+    ├── scripts/
+    │   ├── create.js
+    │   ├── home.js
+    │   ├── login.js
+    │   ├── recover.js
+    │   └── start.js
+    └── styles/
+        ├── form.css
+        └── global.css
+```
+
+## �🚀 Instalação e Configuração
 
 1. **Clone o Repositório**:
    ```bash
