@@ -18,6 +18,8 @@ button.addEventListener("click", (event) => {
   const usernameValue = username.value;
   const npasswordValue = npassword.value;
   const cpasswordValue = cpassword.value;
+  const storageUsername = sessionStorage.getItem("username");
+  const storagePassword = sessionStorage.getItem("password");
   event.preventDefault();
 
   if (usernameValue == "" || npasswordValue == "" || cpasswordValue == "") {
@@ -32,12 +34,12 @@ button.addEventListener("click", (event) => {
     alert("Passwords do not match!");
     return;
   }
-  if (username.value !== sessionStorage.getItem("username")) {
+  if (username.value !== storageUsername) {
     alert("username does not exist!");
     return;
   }
 
-  if (npasswordValue === sessionStorage.getItem("password")) {
+  if (npasswordValue === storagePassword) {
     alert("This password has already been used.");
     return;
   }

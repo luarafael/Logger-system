@@ -25,7 +25,7 @@ Seja você um recrutador procurando talento ou um desenvolvedor explorando proje
 - **CSS3**: Estilo moderno com design responsivo
 - **JavaScript (ES6+)**: Funcionalidade interativa e manipulação DOM
 
-## � Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 logger-system/
@@ -51,6 +51,7 @@ logger-system/
 ## 🚀 Instalação & Configuração
 
 1. **Clone o Repositório**:
+
    ```bash
    git clone https://github.com/luarafael/Logger-system.git
    cd Logger-system
@@ -86,7 +87,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 **Luã rafael**  
 Estudante da Digital College - Turma FS-07  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue)](https://linkedin.com/in/luarafael)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-blue)](https://www.linkedin.com/in/lu%C3%A3-rafael-1434213a3/)  
 [![GitHub](https://img.shields.io/badge/GitHub-Seguir-black)](https://github.com/luarafael)
 
 ---
